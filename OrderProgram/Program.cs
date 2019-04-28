@@ -98,7 +98,7 @@ namespace OrderProgram
 
 
 
-        // Add items to objects
+        // Genereting inputs 
         static string GetInput(string header, string message, string pattern)
         {
             Console.WriteLine(message);
