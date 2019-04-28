@@ -1,0 +1,7 @@
+C:\Users\santa\OneDrive\Desktop\HomeWork\OrderProgram\OrderProgram\bin\Debug\OrderProgram.exe.config
+C:\Users\santa\OneDrive\Desktop\HomeWork\OrderProgram\OrderProgram\bin\Debug\OrderProgram.exe
+C:\Users\santa\OneDrive\Desktop\HomeWork\OrderProgram\OrderProgram\bin\Debug\OrderProgram.pdb
+C:\Users\santa\OneDrive\Desktop\HomeWork\OrderProgram\OrderProgram\obj\Debug\OrderProgram.csprojAssemblyReference.cache
+C:\Users\santa\OneDrive\Desktop\HomeWork\OrderProgram\OrderProgram\obj\Debug\OrderProgram.csproj.CoreCompileInputs.cache
+C:\Users\santa\OneDrive\Desktop\HomeWork\OrderProgram\OrderProgram\obj\Debug\OrderProgram.exe
+C:\Users\santa\OneDrive\Desktop\HomeWork\OrderProgram\OrderProgram\obj\Debug\OrderProgram.pdb
