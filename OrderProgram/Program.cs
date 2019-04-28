@@ -16,6 +16,8 @@ namespace OrderProgram
             StartProgram(employee, client, product,order);
         }
 
+        
+        
         // Recursive program function
         public static void StartProgram(Employee employee, Client client,Product product,Order order)
         {
@@ -33,7 +35,7 @@ namespace OrderProgram
 
                         employee.Name = GetInput("Ad", "Ishcinin adini yazin", "onlyString");
                         employee.Surname = GetInput("Soyad", "Soyadini daxil edin", "onlyString");
-                        employee.Birthday = GetInput("Dogum tarixi", "Dogum tarixini yazin (ISO formatta 1993.05.25)", "dataType");
+                        employee.Birthday = GetInput("Dogum tarixi", "Dogum tarixini yazin (ISO formatta 1993-05-25)", "dataType");
                         employee.Card_ID = Convert.ToInt32(GetInput("Vesiqe kodu", "Vesiqesinin kodunu daxil edin", "onlyNumber"));
                         employee.Position = GetInput("Vesife", "Vesifesini qeyd edin", "any");
                         employee.Salary = Convert.ToInt32(GetInput("Maash", "Maashini daxil edin", "onlyNumber"));
@@ -48,7 +50,7 @@ namespace OrderProgram
 
                         client.Name = GetInput("Ad", "Mushterinin adini yazin", "onlyString");
                         client.Surname = GetInput("Soyad", "Mushterinin Soyadini daxil edin", "onlyString");
-                        client.Birthday = GetInput("Dogum tarixi", "Mushterinin Dogum tarixini yazin (ISO formatta 1993.05.25)", "dataType");
+                        client.Birthday = GetInput("Dogum tarixi", "Mushterinin Dogum tarixini yazin (ISO formatta 1993-05-25)", "dataType");
                         client.Card_ID = Convert.ToInt32(GetInput("Vesiqe kodu", "Mushterinin vesiqe kodunu daxil edin", "onlyNumber"));
                         client.Client_ID =  GetInput("Client ID","Musterinin Id-sini elave edin","any");
                         client.Address = GetInput("Unvan", "Musterinin unvanini qeyd edin", "any");
