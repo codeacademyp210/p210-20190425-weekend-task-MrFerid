@@ -24,8 +24,8 @@ namespace OrderProgram
              
             do
             {
-                string variant = Console.ReadLine();
-                switch (variant.ToLower())
+                string variant = Console.ReadLine().ToLower();
+                switch (variant)
                 {
                     case "i":
 
